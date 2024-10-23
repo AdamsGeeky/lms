@@ -15,8 +15,17 @@
   "license": "ISC",
   "description": "Geek ink LMS api",
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.7.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/morgan": "^1.9.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
   }
 }
