@@ -39,6 +39,12 @@ const config: Config = {
     [
       'classic',
       {
+        // Google Analytics
+        gtag: {
+          trackingID: 'G-2NMJ0TP7TS',
+          anonymizeIP: true,
+        },
+
         docs: {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
